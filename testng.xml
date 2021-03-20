@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="RestAssuredDemo">
+        <classes><class name="APITests.TestCases">
+            <methods><include name="test_GetTokenValid"/>
+                <include name="test_GetTokenInvalid"/>
+                <include name="test_UnlockBarn"/>
+                <include name="test_FeedChickens"/>
+                <include name="test_CollectEggs"/>
+                <include name="test_CountEggs"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
